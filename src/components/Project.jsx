@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 const Project = ({image, stack, title, description}) => {
   return (
-    <div name='projects' className="w-full shadow-lg shadow-gray-600">
-        <img src={image} className='w-full object-cover md:h-[224px]' alt=''/>
+    <div name='projects' className="w-full shadow-lg shadow-[#040c16]">
+        <img src={image} className='w-full object-cover md:h-[268px]' alt=''/>
         <div className='w-3/4 mx-auto flex flex-col items-center'>
             <h3 className='font-[600] text-xl pb-4 pt-1 mb-5 text-center relative'>{title} <span className='absolute w-14 bg-white h-1 bottom-0 left-1/2 -translate-x-1/2'></span></h3>
             <p className='text-gray-400'>{description}</p>

@@ -11,7 +11,7 @@ const Header = () => {
   }
 
   return (
-    <div className="flex py-4 w-full px-20 justify-between items-center bg-[#0a192f] text-gray-300">
+    <div className="flex py-6 w-full px-20 justify-between items-center bg-[#0a192f] text-gray-300">
         <div className="flex items-center gap-2 z-10  text-lg">
             <span><GiSpikedDragonHead /></span>
             <span>Mutemi</span>
