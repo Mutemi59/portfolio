@@ -4,7 +4,7 @@ const About = () => {
     <div name='about' className="bg-[#0a192f] text-gray-400 w-full py-10 md:py-0  md:h-screen flex items-center">
 
       {/* Technologies Container */}
-      <div className="w-full mx-auto max-w-[1000px] pl-4">
+      <div className="w-full mx-auto max-w-[1300px] pl-4">
          <h2 className='font-[600] text-5xl mb-4 bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent py-2 inline-block'>About</h2>
         <p className="text-gray-400 md:w-[70%]">I&#39;m a passionate and dedicated Django backend developer with a strong commitment to creating efficient, scalable, and secure web applications. With 0 years of experience in the industry, I&#39;ve honed my skills in designing and implementing robust backend solutions that drive the success of various digital products.</p>
         <div>

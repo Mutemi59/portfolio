@@ -6,7 +6,7 @@ const Intro = () => {
     <div name='intro' className='w-full flex flex-col justify-center bg-[#0a192f] h-screen'>
 
         {/* Container */}
-        <div className=" pl-4 max-w-[1000px] mx-auto">
+        <div className=" pl-4 max-w-[1300px] mx-auto">
             <div className="md:w-[70%]">
                 <p className="font-[600] text-4xl md:text-6xl bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent mb-6 py-1">
                     Welcome To <br/>

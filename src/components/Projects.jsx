@@ -10,7 +10,7 @@ const Projects = () => {
     <div name='projects' className='w-full py-20 bg-[#0a192f] text-gray-300'>
 
       {/* Projects Container */}
-      <div className="w-full max-w-[1000px] mx-auto pl-4">
+      <div className="w-full max-w-[1300px] mx-auto pl-4">
         <h2 className='font-[600] text-5xl mb-10 bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent py-2 inline-block'>Projects</h2>
         <div className="w-[90%] md:w-[80%] grid md:grid-cols-2 gap-10 mx-auto">
             <Project image={image1} stack={['React', 'Django', 'Ajax', 'Mysql']} title={'MERN Memories'} 
